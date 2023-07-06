@@ -43,7 +43,8 @@
     height: 400px;
     width: 400px;
     border: 2px solid yellowgreen;
-    border-radius: 64% 36% 61% 39% / 44% 74% 26% 56%
+    border-radius: 64% 36% 61% 39% / 44% 74% 26% 56%;
+    /* box-shadow: 4px 4px 4px white; */
 }
 
 .banner_main{
@@ -90,4 +91,75 @@
     color: white;
     border: 2px solid red;
     box-shadow: 3px 3px 3px red;
+}
+
+.c1{
+    width: 100vw;
+    height: 85vh;
+    background-image: linear-gradient(45deg,#1f29c0,#471fc07b);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* border: 2px solid red; */
+}
+
+.about_text{
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+.about_heading{
+    font-size: 30px;
+}
+.hd1{
+    background-image: linear-gradient(45deg,#1f29c0,#471fc07b);
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.pic2{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid blue; */
+    /* border-radius: 64% 36% 61% 39% / 44% 74% 26% 56%; */
+    border-radius: 29% 22% 26% 21% / 28% 29% 32% 21% ;
+    /* box-shadow: 4px 4px 4px white; */
+}
+
+.sp1{
+    color: rgb(191, 13, 13);
+}
+
+.sp1:hover{
+    color: #1f29c0;
+}
+
+.p1{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.btn1{
+    height: 50px;
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(33, 33, 152);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;'
+    font-size: 18px; */
+    box-shadow: 3px 3px 3px yellow;
 }
